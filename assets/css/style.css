@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+header{
+    height: 100px;
+    background-color: #000;
+    color: #FFF;
+}
+.header{
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.logo{
+    width: 200px;
+}
+form input.inp-pesquise{
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+}
+.menu li a{
+    display: flex;
+    text-decoration: none;
+    width: 400px;
+    color: #FFF;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.select{
+    display: flex;
+}
+.select{
+    margin-top: 20px;
+}
+.category{
+    width: 40vw;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.category option{
+    text-align: center;
+}
+.filter{
+    flex: 1;
+}
+.products{
+    width: 100vw;
+    margin-left: 50px;
+}
+.prod{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+    margin-top: 20px;
+}
+.product_item{
+    width: 20vw;
+    font-weight: 600;
+}
+.product_name{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    margin-bottom: 5px;
+   font-size: 17px;
+}
+
+
+.product_brand{
+    list-style: none;
+    color: #000;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.product_price_from{
+    list-style: none;
+    text-decoration: line-through;
+    color: rgb(124, 124, 124);
+    margin-right: 70px;
+    font-size: 13px;
+}
+.product_price{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.price_view{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer form input{
+    width: 30vw;
+    padding: 15px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid rgb(80, 80, 80);
+}
+
+footer form button{
+    padding: 8px;
+    color: #FFF;
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+footer form p{
+    margin-left: 150px;
+}
+
+
+
